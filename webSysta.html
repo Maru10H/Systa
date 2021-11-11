@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Systa</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"> 
+    <link rel="stylesheet" href="estilo.css">
+    <script src="https://kit.fontawesome.com/bb8370d015.js" crossorigin="anonymous"></script>
+    
+</head>
+
+<body>
+    
+    <section class="hero is-medium has-text-centered" id="home">
+    <!--nav-->
+        <nav class="navbar px-2 py-3 is-fixed-top" style="transition: .5s;">
+        <div class="navbar-brand">
+            <a id="logo" href="#home" class="navbar-item">
+                <h1 class="title mx-1 has-text-white">Grupo Systa</h1>
+            </a>
+            <a role="button" class="navbar-burger has-text-white" data-target="navMenu" aria-label="menu" aria-expanded="false">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+              </a>
+        </div>
+        <div class="navbar-menu">
+            <div class="navbar-end ">
+              <a href="#servicios" class="navbar-item has-text-white ">
+                <span class="mx-1">Qué hacemos</span>
+              </a>
+              <a href="#trabajos" class="navbar-item has-text-white">
+                <span class="mx-1">Diseños</span>
+              </a>
+              <a href="#nosotros" class="navbar-item has-text-white">
+                <span class="mx-1">Nosotros</span>
+              </a>
+              <a href="" class="navbar-item has-text-white">
+                <span class="mx-1">Posts</span>
+              </a>
+              <a href="#contacto" class="navbar-item has-text-white">
+                <span class="mx-1">Contacto</span>
+              </a>
+            </div>   
+        </div>
+        </nav>
+    <!--nav-->
+    <!--hero-->
+        <div class="hero-body image is-3by4 is-orange">
+            <!--<img id="heroimg" src="img/bg-masthead.png" alt="">-->
+          <p class="title is-size-1 pt-6 has-text-white">DISEÑO WEB GRUPO SYSTA</p>
+          <div class="content has-text-white">
+              <p class="mb-5 title is-size-6 is-uppercase has-text-white">Hacemos digital tu negocio</p>
+              <hr class="mb-4" style="width: 50px; height: 4px; margin: 0 auto;">
+              <p class="is-size-5 has-text-weight-light">Sitios web, tiendas online, landing page para comenzar en el mundo online.</p>
+              <a id="botonPresupuesto" href="#contacto" class="mt-4 button is-medium has-background-warning is-rounded">Pedinos presupuesto acá</a>
+          </div>
+        </div>
+    <!--hero-->    
+    </section>
+    <!-- que hacemos -->
+    <section class="hero is-medium has-background-link-light has-text-centered">
+        <div class="hero-body" id="servicios">
+            <div class="container">
+                <div class="content">
+                    <p class="mb-4 is-size-3 has-text-weight-bold">Qué hacemos</p>
+                    <hr class="mb-4 is-orange" style="width: 50px; height: 4px; margin: 0 auto;">
+                </div>
+                <div class="columns mt-3">
+                    <div class="column is-3-desktop">
+                        <i class="fas fa-gem fa-4x mb-3 orange"></i>
+                        <p class="is-size-4 mb-1">Diseño web</p>
+                        <p>Sitios web que se diferencian. Diseños especiales para cada tipo de negocio, emprendedor o entidad. Utilizamos frameworks como Bootstrap y Bulma.</p>
+                    </div>
+                    <div class="column is-3-desktop">
+                        <i class="fas fa-4x fa-laptop-code mb-3 orange"></i>
+                        <p class="is-size-4 mb-1">Landing page</p>
+                        <p>Pensada para profesionales, artistas, ong, etc. que necesiten presencia en internet mediante una página donde pueda encontrarse info de contacto de forma simple, directa y linda.</p>
+                    </div>
+                    <!--  -->
+                    <div class="column is-3-desktop">
+                        <i class="fas fa-4x fa-shopping-cart mb-3 orange"></i>
+                        <p class="is-size-4 mb-1">Tienda Online</p>
+                        <p>Trabajamos en el diseño de una tienda online y la configuración de los distintos métodos de pago y formas de envío para comenzar a vender online.</p>
+                    </div>
+                    <!--  -->
+                    <div class="column is-3-desktop">
+                        <i class="fas fa-4x fa-globe text-primary mb-4 orange"></i>
+                        <p class="is-size-4 mb-1">Pago único</p>
+                        <p>Nuestros diseños incluyen el dominio y hosting de la página válido por un año. No cobramos abono mensual.</p>
+                    </div>
+                </div>
+            </div>
+        </div>    
+    </section>
+    <!-- trabajos-->
+    
+    <div class="columns has-background-warning pt-6" id="trabajos">
+        <div class="column is-4-desktop is-fullwidth">
+            <img src="img/gorila640.png" class="open-modal" data-target="imagen-1" alt="">
+            <div class="caption">
+				<div class="blur"></div>
+				
+			</div>
+            <div class="modal" id="imagen-1">
+                <div class="modal-background"></div>
+                    <div class="modal-content">
+                        <p class="image is-4by3">
+                        <img src="img/gorilamodal.png" alt="">
+                        </p>
+                    </div>
+                <button class="modal-close is-large" aria-label="close" id=""></button>
+            </div>
+        </div>
+        <div class="column is-4-desktop">
+            <figure class="image">
+                <img src="img/valu640.png" class="open-modal"  data-target="imagen-2" alt="">
+            </figure>
+            <div class="modal" id="imagen-2">
+                <div class="modal-background"></div>
+                    <div class="modal-content">
+                        <p class="image">
+                        <img src="img/valumodal.png" alt="">
+                        </p>
+                    </div>
+                <button class="modal-close is-large" aria-label="close" id=""></button>
+            </div>
+        </div>
+        <div class="column is-4-desktop">
+            <figure class="image">
+                <img src="img/planeta640.png" class="open-modal"  data-target="imagen-3" alt="">
+            </figure>
+            <div class="modal" id="imagen-3">
+                <div class="modal-background"></div>
+                    <div class="modal-content">
+                        <p class="image is-2by2">
+                        <img src="img/planetamodal.png" alt="">
+                        </p>
+                    </div>
+                <button class="modal-close is-large" aria-label="close" id=""></button>
+            </div>
+        </div>
+    </div>    
+    <div class="columns has-background-warning pb-6">
+        <div class="column is-4-desktop is-fullwidth">
+            <img src="img/artesano640.png" class="open-modal" data-target="imagen-4" alt="">
+            <div class="modal" id="imagen-4">
+                <div class="modal-background"></div>
+                    <div class="modal-content">
+                        <p class="image is-4by3">
+                        <img src="img/artemodal.png" alt="">
+                        </p>
+                    </div>
+                <button class="modal-close is-large" aria-label="close" id=""></button>
+            </div>
+        </div>
+        <div class="column is-4-desktop">
+            <img src="img/madera640.png" class="open-modal"  data-target="imagen-5" alt="">
+            <div class="modal" id="imagen-5">
+                <div class="modal-background"></div>
+                    <div class="modal-content">
+                        <p class="image is-4by3">
+                        <img src="img/maderamodal.png" alt="">
+                        </p>
+                    </div>
+                <button class="modal-close is-large" aria-label="close" id=""></button>
+            </div>
+        </div>
+        <div class="column is-4-desktop">
+            <img src="img/design360.png" class="open-modal"  data-target="imagen-6" alt="">
+            <div class="modal" id="imagen-6">
+                <div class="modal-background"></div>
+                    <div class="modal-content">
+                        <p class="image is-4by3">
+                        <img src="img/designmodal.png" alt="">
+                        </p>
+                    </div>
+                <button class="modal-close is-large" aria-label="close" id=""></button>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Nosotros -->
+    <section class="hero is-medium has-background-link-light" id="nosotros">
+        <div class="hero-body">
+            <div class="columns is-centered">
+                <div class="column is-7-desktop has-text-centered">
+                    <p class="mb-4 is-size-3 has-text-weight-bold">Quiénes somos</p>
+                    <hr class="mb-4 is-orange" style="width: 50px; height: 4px; margin: 0 auto;">
+                    <p class="has-text-weight-light">Grupo Systa somos Maru y Val de Buenos Aires, Argentina y nace del amor que tenemos hacia el diseño y la tecnología. Ofrecemos todos nuestros conocimientos para navegar en páginas lindas, dinámicas y hechas a medida. <br>
+                    Creemos que para esto no es necesario contar con una gran inversión y por eso apuntamos a quienes recién comienzan en el mundo digital. <br>
+                    Somos una empresa jóven con muchas ganas de crecer con total compromiso y responsabilidad.</p>
+                    <a id="botonNosotros" href="#trabajos" class="mt-4 button is-medium is-warning is-rounded">conocé más</a>     
+                </div>   
+            </div>        
+        </div>
+    </section>  
+    <!-- mostrale al mundo-->
+    <section class="hero is-medium is-orange has-text-centered">
+        <div class="hero-body has-text-white">
+          <p class="mb-4 is-size-3 has-text-weight-bold ">Mostrale al mundo tu proyecto. <br>
+            Nosotros lo diseñamos</p>
+            <a id="botonQuiero" href="#contacto" class="mt-4 button is-medium has-background-warning is-rounded">QUIERO!</a>   
+        </div>      
+    </section>    
+    <!-- contacto-->
+    <section class="hero is-medium has-background-link-light" id="contacto">
+        <div class="hero-body">
+            <div class="container">
+                <div class="content has-text-centered">
+                    <p class="mb-4 is-size-3 has-text-weight-bold">Hacé tu consulta</p>
+                    <hr class="mb-4 is-orange" style="width: 50px; height: 4px; margin: 0 auto;">
+                    <p class="has-text-weight-light">Contanos lo que queres hacer y te enviamos un presupuesto</p>
+                </div> 
+                <div class="mt-4 columns has-text-centered is-centered">
+                    <div class="column is-4-desktop">
+                        <i class="fab fa-whatsapp fa-3x mb-3 muted orange"></i>                       
+                        <p>1164044524</p>
+                    </div>
+                    <div class="column is-4-desktop">
+                        <i class="far fa-envelope fa-3x mb-3 muted orange"></i>
+                        <p>gruposysta@gmail.com</p>                        
+                    </div>                    
+                </div>  
+                <div class="columns is-centered">
+                    <div class="column is-6-desktop">
+                        <div id="formulario" class="field">
+                            <div class="field">
+                                <label class="label">Nombre</label>
+                                <div class="control has-icons-right">
+                                  <input id="nombre" class="input" type="text" placeholder="Nombre completo" required>
+                                  
+                                </div>
+                                <p id="faltaNom" class="help is-danger is-hidden">Ingresá un nombre</p>
+                              </div>
+                                                
+                              <div class="field">
+                                <label class="label">Email</label>
+                                <div class="control has-icons-right">
+                                  <input id="correo" class="input" type="email" placeholder="Email de contacto" required>
+                                  
+                                </div>
+                                <p id="faltaEm" class="help is-danger is-hidden">Ingresá un email válido</p>
+                              </div>
+
+                              <div class="field">
+                                <label class="label">Celular</label>
+                                <div class="control has-icons-right">
+                                  <input id="celular" class="input" type="number" placeholder="Número de celular">
+                                  
+                                </div>
+                                <p class="help is-danger is-hidden">Ingresá un número telefónico</p>
+                              </div>
+                              
+                              <div class="field">
+                                <label class="label">Mensaje</label>
+                                <div class="control has-icons-right">
+                                  <textarea id="mensaje" class="textarea" placeholder="Escribí tu mensaje" required></textarea>
+                                  
+                                </div>
+                                <p id="faltaMen" class="help is-danger is-hidden">Escribí tu mensaje</p>
+                              </div>
+                              
+                              <div class="field is-grouped is-grouped-right">
+                                <div class="control">
+                                  <p id="msjEnviado" class="is-hidden">Mensaje enviado!</p>
+                                  <button id="botonSubmit" class="button is-orange has-text-white" type="submit">Enviar</button>
+                                </div>
+                                
+                              </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>        
+        </div>
+    </section>  
+    <!-- footer-->
+    <section class="section has-background-warning">
+        <div class="columns is-centered">
+            <div class="column is-2-desktop has-text-centered">
+                <a href="https://www.facebook.com/gruposystacreaciones" target="_blank" class="link is-info"><i class="fab fa-facebook fa-2x mr-2 orange"></i></a>
+                <a href="https://wa.me/541164044524?text=Hola%20esperamos%20que%20estés%20bien!%20En%20qué%20te%20podemos%20ayudar?" target="_blank" class="link is-info"><i class="fab fa-whatsapp fa-2x mr-2 orange"></i></a>
+                <a href="https://www.instagram.com/@gruposysta.digital" target="_blank" class="link is-info"><i class="fab fa-instagram fa-2x mr-2 orange"></i></a>
+                <a href="https://medium.com/@gruposysta" title="Medium blog" target="_blank" class="link is-info"><i class="fab fa-medium-m fa-2x orange"></i></a>
+            </div>
+        </div>
+        <p class="has-text-weight-light is-small has-text-centered">Copyright © 2021 - Creaciones digitales Grupo Systa</p>
+    </section>
+
+    <script src="app.js"></script>
+    <script src="validacion.js"></script>
+</body>
+</html>

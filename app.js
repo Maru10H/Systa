@@ -11,6 +11,7 @@ if (burger !== null) {
 
         burger.classList.toggle('is-active');
         menu.classList.toggle('is-active');
+        menu.classList.add('has-background-warning')
         
         if(menu.classList.contains('is-active')){
             for(let c=0; c < link.length; c++){

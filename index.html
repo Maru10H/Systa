@@ -11,58 +11,68 @@
     
 </head>
 
-<body>
+<body class="has-background-warning">
     
-    <section class="hero is-medium has-text-centered" id="home">
-    <!--nav-->
-        <nav class="navbar px-2 py-3 is-fixed-top" style="transition: .5s;">
-        <div class="navbar-brand">
-            <a id="logo" href="#home" class="navbar-item">
-                <h1 class="title mx-1 has-text-white">Grupo Systa</h1>
-            </a>
-            <a role="button" class="navbar-burger has-text-white" data-target="navMenu" aria-label="menu" aria-expanded="false">
-                <span aria-hidden="true"></span>
-                <span aria-hidden="true"></span>
-                <span aria-hidden="true"></span>
-              </a>
-        </div>
-        <div class="navbar-menu">
-            <div class="navbar-end ">
-              <a href="#servicios" class="navbar-item has-text-white ">
-                <span class="mx-1">Qué hacemos</span>
-              </a>
-              <a href="#trabajos" class="navbar-item has-text-white">
-                <span class="mx-1">Diseños</span>
-              </a>
-              <a href="#nosotros" class="navbar-item has-text-white">
-                <span class="mx-1">Nosotros</span>
-              </a>
-              <a href="" class="navbar-item has-text-white">
-                <span class="mx-1">Posts</span>
-              </a>
-              <a href="#contacto" class="navbar-item has-text-white">
-                <span class="mx-1">Contacto</span>
-              </a>
-            </div>   
-        </div>
-        </nav>
-    <!--nav-->
+    <section class="hero is-medium has-text-centered home" id="home">
+        <div class="float">
+             <a href="https://api.whatsapp.com/send?phone=541164044524&amptext=Hola&nbsp;esperamos&nbsp;que&nbsp;estés&nbsp;bien!&nbsp;En&nbsp;qué&nbsp;te&nbsp;podemos&nbsp;ayudar?"><i class="fab fa-whatsapp my-float"></i></a>
+         </div>    
     <!--hero-->
-        <div class="hero-body image is-3by4 is-orange">
-            <!--<img id="heroimg" src="img/bg-masthead.png" alt="">-->
-          <p class="title is-size-1 pt-6 has-text-white">DISEÑO WEB GRUPO SYSTA</p>
-          <div class="content has-text-white">
-              <p class="mb-5 title is-size-6 is-uppercase has-text-white">Hacemos digital tu negocio</p>
-              <hr class="mb-4" style="width: 50px; height: 4px; margin: 0 auto;">
-              <p class="is-size-5 has-text-weight-light">Sitios web, tiendas online, landing page para comenzar en el mundo online.</p>
-              <a id="botonPresupuesto" href="#contacto" class="mt-4 button is-medium has-background-warning is-rounded">Pedinos presupuesto acá</a>
+        <div class="hero-body is-orange">
+              <!--nav-->
+        <nav class="navbar px-2 py-3 is-fixed-top" style="transition: .5s;">
+            <div class="navbar-brand">
+                <a id="logo" href="#home" class="navbar-item">
+                    <h1 class="title mx-1 has-text-white">Grupo Systa</h1>
+                </a>
+                <a role="button" class="navbar-burger has-text-white" data-target="navMenu" aria-label="menu" aria-expanded="false">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                  </a>
+            </div>
+            <div class="navbar-menu">
+                <div class="navbar-end">
+                  <a href="#servicios" class="navbar-item has-text-white ">
+                    <span class="mx-1">Qué hacemos</span>
+                  </a>
+                  <a href="#trabajos" class="navbar-item has-text-white">
+                    <span class="mx-1">Diseños</span>
+                  </a>
+                  <a href="#nosotros" class="navbar-item has-text-white">
+                    <span class="mx-1">Nosotros</span>
+                  </a>
+                  <!-- <a href="" class="navbar-item has-text-white">
+                    <span class="mx-1">Posts</span>
+                  </a> -->
+                  <a href="#contacto" class="navbar-item has-text-white">
+                    <span class="mx-1">Contacto</span>
+                  </a>
+                </div>   
+            </div>
+            </nav>
+        <!--nav-->
+          <div class="columns" >
+              <div class="column left mt-6" id="img-columna">
+                  <img src="img/masthead.png" alt="">
+              </div>
+              <div class="column right">
+                <p class="title is-size-1 pt-6 has-text-white">DISEÑO WEB GRUPO SYSTA</p>
+                <div class="content has-text-white">
+                    <p class="mb-5 title is-size-6 is-uppercase has-text-white">Hacemos digital tu negocio</p>
+                    <hr class="mb-4" style="width: 50px; height: 4px; margin: 0 auto;">
+                    <p class="is-size-5 has-text-weight-light">Sitios web, tiendas online, landing page para comenzar en el mundo online.</p>
+                    <a id="botonPresupuesto" href="#contacto" class="mt-4 button is-medium has-background-warning is-rounded">Pedinos presupuesto acá</a>
+                </div>
+              </div>
           </div>
+          
         </div>
     <!--hero-->    
     </section>
     <!-- que hacemos -->
-    <section class="hero is-medium has-background-link-light has-text-centered">
-        <div class="hero-body" id="servicios">
+    <section class="hero is-medium  has-text-centered">
+        <div class="hero-body has-background-link-light"  id="servicios">
             <div class="container">
                 <div class="content">
                     <p class="mb-4 is-size-3 has-text-weight-bold">Qué hacemos</p>
@@ -97,13 +107,9 @@
     </section>
     <!-- trabajos-->
     
-    <div class="columns has-background-warning pt-6" id="trabajos">
-        <div class="column is-4-desktop is-fullwidth">
+    <div class="columns has-background-warning pt-6 is-variable is-2" id="trabajos">
+        <div class="column is-4-desktop">
             <img src="img/gorila640.png" class="open-modal" data-target="imagen-1" alt="">
-            <div class="caption">
-				<div class="blur"></div>
-				
-			</div>
             <div class="modal" id="imagen-1">
                 <div class="modal-background"></div>
                     <div class="modal-content">
@@ -143,8 +149,8 @@
             </div>
         </div>
     </div>    
-    <div class="columns has-background-warning pb-6">
-        <div class="column is-4-desktop is-fullwidth">
+    <div class="columns has-background-warning pb-6 is-variable is-2">
+        <div class="column is-4-desktop">
             <img src="img/artesano640.png" class="open-modal" data-target="imagen-4" alt="">
             <div class="modal" id="imagen-4">
                 <div class="modal-background"></div>

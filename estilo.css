@@ -1,10 +1,31 @@
-#heroimg{
-	z-index: -1;
-	filter: brightness(90%);
+.float {
+	position:fixed;
+	width:50px;
+	height:50px;
+	bottom:50px;
+	right:25px;
+	background-color:#00fb73;
+    border-radius:50px;
+	text-align:center;
+	font-size:35px;
+	z-index:1000;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
+
+.float a {
+	color: white;
+}
+
+.float:hover {
+	opacity: 0.5;
+}
+
 
 .is-orange{
 	background-color: #F15525;
+
 }
 
 .orange{
@@ -12,61 +33,6 @@
 	z-index: -2;
 }
 
-#trabajos .column:hover img{
+.columns .column img:hover{
 	cursor: pointer;
-	opacity: 1;
-		transform: scale(1.15,1.15);
-		-webkit-transform:scale(1.15,1.15);
-		-moz-transform:scale(1.15,1.15);
-		-ms-transform:scale(1.15,1.15);
-		-o-transform:scale(1.15,1.15);
 }
-
-#trabajos .column img{
-	z-index: 0;
-}
-
-#trabajos .column .caption{
-    
-	z-index: 4;
-	position: absolute;
-	opacity: 0;
-		-webkit-transition:all 0.45s ease-in-out;
-		-moz-transition:all 0.45s ease-in-out;
-		-o-transition:all 0.45s ease-in-out;
-		-ms-transition:all 0.45s ease-in-out;
-		transition:all 0.45s ease-in-out;		
-}
-
-#trabajos .column img{
-	-webkit-transition:all 0.25s ease-in-out;
-		-moz-transition:all 0.25s ease-in-out;
-		-o-transition:all 0.25s ease-in-out;
-		-ms-transition:all 0.25s ease-in-out;
-		transition:all 0.25s ease-in-out;
-}
-
-/* #trabajos .column .caption .blur{
-    background-color: rgba(0,0,0,0.65);
-		height: 320px;
-		width: 640px;
-		z-index: 5;
-		position: absolute;
-} */
-
-/* 
-
-#trabajos .column .caption-text{
-    z-index: 10;
-		color: #fff;
-		position: absolute;
-		width: 400px;
-		height: 300px;
-		text-align: center;
-		top:100px;
-}
-
-#trabajos .column .caption-text h1{
-    text-transform: uppercase;
-    font-size: 24px;
-} */

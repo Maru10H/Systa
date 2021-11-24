@@ -48,7 +48,7 @@ function valMsj() {
 }
 
 
-submit.addEventListener('click', function(evt){
+function verificar(){
     let pattern =/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
     let datoMail = pattern.test(email.value)
     let datoNombre=nombre.value
@@ -74,5 +74,5 @@ submit.addEventListener('click', function(evt){
             window.location.reload();
         },1000);  
     }
-})
+}
 

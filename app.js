@@ -59,18 +59,40 @@ function clickHandler(e) {
   });
 }
 
-/////////////////////////////modal-ejemplo de libro/////////////
+/////////////////////////////modal////////////////
+
 
 let modalOpen=document.querySelectorAll(".open-modal")
 let modales=document.querySelectorAll(".modal") 
 let modalClose=document.querySelectorAll(".modal-background")
 let cruzCerrar=document.querySelectorAll(".modal-close")
 
+// if(modalOpen.length > 0){
+//     modalOpen.forEach(img => {
+//         img.addEventListener('mouseover', function(){
+//             document.getElementById(this.target).classList.add('pantalla-naran')    
+    
+//             });
+
+//             ///////////////////hover de trabajos//////////////////
+        
+//     });
+// }
+
+
+
+
 if(modalOpen.length > 0){
     modalOpen.forEach(img => {
         img.addEventListener('click', function(){
             document.getElementById(this.dataset.target).classList.add('is-active')
-        });
+        })
+
+            ///////////////////hover de trabajos//////////////////
+        // img.addEventListener('mouseOver', function(){
+        // document.getElementById(this.dataset.target).classList.add('orange')    
+
+        // });
     });
 }
 

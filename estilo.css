@@ -34,4 +34,24 @@
 
 .columns .column img:hover{
 	cursor: pointer;
+	
+		
 }
+
+
+.columns .column .open-modal .pantalla-naran{
+	position: absolute;
+	width: 100%;
+    height: 100%;
+    bottom: 0;
+    text-align: center;
+    opacity: 0;
+    color: #fff;
+    background: rgba(244,98,58,.9);
+    transition: opacity .25s ease;
+    text-align: center;
+	z-index: 100;
+
+}
+
+

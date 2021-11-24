@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"> 
     <link rel="stylesheet" href="estilo.css">
     <script src="https://kit.fontawesome.com/bb8370d015.js" crossorigin="anonymous"></script>
-    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 
 <body class="has-background-warning">
@@ -109,8 +109,10 @@
     <!-- trabajos-->
     
     <div class="columns has-background-warning pt-6 is-variable is-2" id="trabajos">
-        <div class="column is-4-desktop">
-            <img src="img/gorila640.png" class="open-modal" data-target="imagen-1" alt="">
+        <div class="column is-4-desktop ">
+            
+                <img src="img/gorila640.png" class="open-modal" data-target="imagen-1" alt="">
+                
             <div class="modal" id="imagen-1">
                 <div class="modal-background"></div>
                     <div class="modal-content">
@@ -122,9 +124,9 @@
             </div>
         </div>
         <div class="column is-4-desktop">
-            <figure class="image">
+            
                 <img src="img/valu640.png" class="open-modal"  data-target="imagen-2" alt="">
-            </figure>
+            
             <div class="modal" id="imagen-2">
                 <div class="modal-background"></div>
                     <div class="modal-content">
@@ -136,9 +138,9 @@
             </div>
         </div>
         <div class="column is-4-desktop">
-            <figure class="image">
+           
                 <img src="img/planeta640.png" class="open-modal"  data-target="imagen-3" alt="">
-            </figure>
+            
             <div class="modal" id="imagen-3">
                 <div class="modal-background"></div>
                     <div class="modal-content">
@@ -299,5 +301,7 @@
 
     <script src="app.js"></script>
     <script src="validacion.js"></script>
+    <script src="ajax.js"></script>
+
 </body>
 </html>

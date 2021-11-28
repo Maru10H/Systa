@@ -13,9 +13,9 @@ btnEnviar.addEventListener("click", (e) => {
 	xhr.onload = function(e) {
 		let response = JSON.parse(xhr.response);
 		if (xhr.status === 200) {
-		respuesta.innerHTML = "Mensaje enviado!";
+		respuesta.textContent = "Mensaje enviado!";
 		} else {
-		respuesta.innerHTML = "Hubo un error: " + response.error;
+		respuesta.textContent = "Hubo un error: " + response.error;
 		}
 	};
 	xhr.send(formData); 

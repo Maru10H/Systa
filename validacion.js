@@ -70,9 +70,9 @@ function verificar(){
         textoMsj.classList.remove("is-hidden")
         submit.style.display="none"
 
-       //  setTimeout(function(){
-        //    window.location.reload();
-        //},1000);  
+        setTimeout(function(){
+           window.location.reload();
+        },1000);  
     }
 }
 

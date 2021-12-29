@@ -42,7 +42,7 @@ function menuFijo(){
 const links = document.querySelectorAll(".navbar-menu > .navbar-end > a");
 
 for (const link of links) {
-      link.addEventListener("click", clickHandler);
+    link.addEventListener("click", clickHandler);
 }
 
 document.getElementById("botonNosotros").addEventListener("click", clickHandler)
